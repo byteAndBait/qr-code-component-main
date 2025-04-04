@@ -1,4 +1,4 @@
-#Link to the page
+# Link to the page : https://byteandbait.github.io/qr-code-component-main/
 # Frontend Mentor - QR code component
 
 ![Design preview for the QR code component coding challenge](./preview.jpg)
