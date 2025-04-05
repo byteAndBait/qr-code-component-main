@@ -16,27 +16,29 @@ body{
 img{
     max-width: 100%;
 }
-/* main qr code container */
-main{
-    max-width: 320px;
+/* qr code container */
+article{
+    max-width: 300px;
     max-height: 500px;
-    padding: 15px;
+    padding: .8em;
     background: white;
     border-radius: 15px;
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.26)
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.075);
+    text-align:center;
 }
-main img{
-    border-radius: 10px;    
+article img{
+    border-radius: 10px; 
 }
-main h1{
+
+article header{
     font-size: 22px;
-    text-align:center;
-    margin: 15px;
+    font-weight: 700;
     color: hsl(218, 44%, 22%);
+    margin: .8em .5em;
 }
-main p{
+article p{
     font-size: 15px;
-    text-align:center;
-    margin: 15px;
+    font-weight: 400;
     color: hsl(216, 15%, 48%);
+    margin: 1.5em 1em;
 }
